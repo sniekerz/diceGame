@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="coinToss" class="">
+        <p>Toss a coin to dermine who starts the game!</p>
+        <p>Heads for P1 Tails for P2</p>
+        <button id="toss-coin">Toss a coin!</button>
+      </div>
+      <div id="gameScreen" class="not-visible">
+        <h1 id="message">Player 1 Turn</h1>
+        <div class="players">
+          <div id="player1">
+            <h1>
+              Score:
+              <span id="player1Scoreboard">0</span>
+            </h1>
+            <div id="player1Dice" class="dice active">-</div>
+          </div>
+          <div id="player2">
+            <h1>
+              Score:
+              <span id="player2Scoreboard">0</span>
+            </h1>
+            <div id="player2Dice" class="dice">-</div>
+          </div>
+        </div>
+
+        <button id="rollBtn">Roll Dice 🎲</button>
+        <button id="resetBtn">Reset Game 🔁</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
